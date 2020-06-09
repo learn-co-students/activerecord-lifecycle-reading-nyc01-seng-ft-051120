@@ -38,7 +38,7 @@ going to run `make_title_case` during the first of the available lifecycle
 our posts are always title-cased.
 
 We write lifecycle callbacks similarly to how you use `has_many` or `validates`
-and place this "hook" onto saving at the top of our model file. Since lifecycle
+  and place this "hook" onto saving at the top of our model file. Since lifecycle
 methods run "as if by magic," we won't see them being called explicitly in one
 method by another method versus Rails running it for us, we put such statements
 at the top so that it catches other programmers' eyes.
